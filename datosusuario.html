@@ -7,5 +7,105 @@
 </head>
 <body>
     
+        <h2>Rellena tu CV</h2>
+        <form form id ="form1" name ="form1" method = "post" action="pagina2.html">
+            <label for = "nombres"><strong>Nombres</strong></laber><br>
+            <input type = "text" id = "nombres" name = "nombres" placeholder = "por ejemplo: Fabian"><br>
+            <label for = "apellidos"><strong>Apellidos</strong></laber><br>
+            <input type = "text" id = "apellidos" name = "apellidos" placeholder = "por ejemplo: Angarita"><br>
+            <label for = "contraseña"><strong>Contraseña</strong></laber><br>
+            <input type = "password" id = "contraseña" name = "contraseña"><br>
+            <label for = "Confirmar contraseña"><strong>Confirmar contraseña</strong></laber><br>
+            <input type = "password" id = "confirmarcontraseña" name = "confirmarcontraseña"><br>
+            <label for = "identificacion"><strong>Identificación</strong></laber><br>
+            <select name = "tipoidentificacion">
+                <option>T.I</option>
+                <option>C.C</option>
+                <option>C.E</option>
+            </select> <input type = "text" id = "numeroidentificacion" name = "numeroidentificacion"><br>
+            <label for = "sexo"><strong>Sexo</strong></laber><br>
+            <input type = "radio" name = "Mujer" value="1">Mujer<br>
+            <input type = "radio" name = "Hombre" value="2">Hombre<br>
+            <input type = "radio" name = "Otro" value="3">Otro<br>
+
+            <label for = "foto"><strong>Inlucir mi foto</strong></label><br>
+            <input type = "file" name = "archivosubido"><br><br>
+
+            <label><input type = "checkbox" id = "check1" value = "primercheck">Estudiante UIS. </inpu></label>
+            <label><input type = "checkbox" id = "check2" value = "segundocheck">Profesor UIS. </inpu></label>
+            <label><input type = "checkbox" id = "check3" value = "tercercheck">Administrativo UIS. </inpu></label>
+
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for = "Departamento">Departamento</label><br>
+                <select name = "departamento">
+                    <option>Amazonas</option>
+                    <option>Antioquia</option>
+                    <option>Arauca</option>
+                    <option>Atlántico</option>
+                    <option>Boliva</option>
+                    <option>Boyacá</option>
+                    <option>Caldas</option>
+                    <option>Caquetá</option>
+                    <option>Casanare</option>
+                    <option>Cauca</option>
+                    <option>Cesar</option>
+                    <option>Chocó</option>
+                    <option>Córdoba</option>
+                    <option>Cundinamarca</option>
+                    <option>Guainía</option>
+                    <option>Guaviare</option>
+                    <option>Huila</option>
+                    <option>La Guajira</option>
+                    <option>Magdalena</option>
+                    <option>Meta</option>
+                    <option>Nariño</option>
+                    <option>Norte de Santander</option>
+                    <option>Putumayo</option>
+                    <option>Quindio</option>
+                    <option>Risaralda</option>
+                    <option>San Andrés y Providencia</option>
+                    <option>Santander</option>
+                    <option>Sucre</option>
+                    <option>Tolima</option>
+                    <option>Valle del Cuaca</option>
+                    <option>Vaupés</option>
+                    <option>Vichada</option>
+                </select><br><br>
+                <label for = "Fechanacimiento"><strong>Fecha de nacimiento</strong></label><br>
+                <input type = "text" name = "dia" size = "5"><label for ="mes"><strong>  de  </strong><select>
+                    <option>Enero</option>
+                    <option>Febrero</option>
+                    <option>Marzo</option>
+                    <option>Abril</option>
+                    <option>Mayo</option>
+                    <option>Junio</option>
+                    <option>Julio</option>
+                    <option>Agosto</option>
+                    <option>Septiembre</option>
+                    <option>Octubre</option>
+                    <option>Noviembre</option>
+                    <option>Diciembre</option>
+
+                </select><strong>  de  </strong><input type = "text" name = "agno" size = "5"><br>
+
+                <label for = "Temainteres">Temas de interés</label><br>
+                <select name = "temas" size = "5" multiple>
+                    <option>Administración de Bases de Datos</option>
+                    <option>Análisis y programación</option>
+                    <option>Arquitectura</option>
+                    <option>Calidad</option>
+                    <option>ERP, CRM, Bussines intelligence </option>
+                    <option>Programación Web</option>
+                    <option>Inteligencia Artificial</option>
+                    <option>Desarrollo de Software</option>
+                </select>
+            </fieldset>
+            <input type = "submit" value = "Guardar cambios"> <input type = "reset" value = "Borrar datos introducidos">
+
+
+
+
+        </form>
 </body>
 </html>
